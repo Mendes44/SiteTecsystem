@@ -1,5 +1,3 @@
-import Image from "next/image";
-
 const whatsapp =
   "https://api.whatsapp.com/send?phone=553134871561&text=Olá!%20Vim%20pelo%20site%20da%20Tecsystem%20e%20gostaria%20de%20um%20orçamento.";
 
@@ -54,12 +52,11 @@ export default function Home() {
     <>
       <header className="site-header">
         <a className="brand" href="#inicio" aria-label="Tecsystem - início">
-          <Image
+          <img
             src="/logo-tecsystem.svg"
             width={214}
             height={54}
             alt="Tecsystem Assistência Técnica"
-            priority
           />
         </a>
         <nav aria-label="Navegação principal">
@@ -166,11 +163,9 @@ export default function Home() {
 
         <section className="section trust">
           <div className="trust-image">
-            <Image
+            <img
               src="/images/instagram-01.jpg"
               alt="Identidade visual da assistência técnica Tecsystem"
-              fill
-              sizes="(max-width: 900px) 100vw, 45vw"
               loading="lazy"
             />
           </div>
@@ -201,11 +196,9 @@ export default function Home() {
           <div className="social-grid">
             {["instagram-01.jpg", "instagram-02.jpg", "instagram-03.jpg"].map((image, index) => (
               <a href="https://www.instagram.com/tecsyste.bh/" target="_blank" rel="noreferrer" key={image}>
-                <Image
+                <img
                   src={`/images/${image}`}
                   alt={`Publicação da Tecsystem no Instagram ${index + 1}`}
-                  fill
-                  sizes="(max-width: 700px) 100vw, 33vw"
                   loading="lazy"
                 />
               </a>
@@ -265,7 +258,7 @@ export default function Home() {
 
       <footer>
         <div className="footer-top">
-          <Image src="/logo-tecsystem.svg" alt="Tecsystem" width={214} height={54} loading="lazy" />
+          <img src="/logo-tecsystem.svg" alt="Tecsystem" width={214} height={54} loading="lazy" />
           <p>Assistência técnica para celulares, notebooks e computadores em Belo Horizonte.</p>
           <div className="footer-links">
             <a href="#servicos">Serviços</a>

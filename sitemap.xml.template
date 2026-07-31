@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Substitua DOMINIO-DO-CLIENTE pelo domínio HTTPS definitivo e renomeie para sitemap.xml. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://DOMINIO-DO-CLIENTE/index.html</loc><priority>1.0</priority></url>
+  <url><loc>https://DOMINIO-DO-CLIENTE/servicos/conserto-de-celular-bh.html</loc><priority>0.9</priority></url>
+  <url><loc>https://DOMINIO-DO-CLIENTE/servicos/manutencao-de-notebook-bh.html</loc><priority>0.9</priority></url>
+  <url><loc>https://DOMINIO-DO-CLIENTE/servicos/manutencao-de-computador-bh.html</loc><priority>0.9</priority></url>
+  <url><loc>https://DOMINIO-DO-CLIENTE/politica-de-privacidade.html</loc></url>
+  <url><loc>https://DOMINIO-DO-CLIENTE/termos-de-uso.html</loc></url>
+  <url><loc>https://DOMINIO-DO-CLIENTE/politica-de-garantia.html</loc></url>
+</urlset>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 650 165" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Tecsystem Assistência Técnica</title>
+  <desc id="logoDesc">Símbolo em forma de olho tecnológico nas cores azul e branco</desc>
+  <g transform="translate(7 8)">
+    <path d="M21 57C61 15 123 7 177 39" fill="none" stroke="#6480a8" stroke-width="13" stroke-linecap="round"/>
+    <path d="M20 91c42 37 112 42 165-3" fill="none" stroke="#f4fbff" stroke-width="13" stroke-linecap="round"/>
+    <path d="M43 53c29-20 74-20 106 4-14 42-75 55-111 18" fill="none" stroke="#18c4ef" stroke-width="14" stroke-linecap="round"/>
+    <ellipse cx="95" cy="69" rx="38" ry="32" fill="#18c4ef"/>
+    <ellipse cx="95" cy="69" rx="20" ry="21" fill="#030923"/>
+    <circle cx="84" cy="55" r="7" fill="#fff"/>
+    <path d="M14 108v26h23M188 108v26h-23" fill="none" stroke="#18c4ef" stroke-width="3" stroke-linecap="round"/>
+  </g>
+  <text x="218" y="86" fill="#fff" font-family="Arial,Helvetica,sans-serif" font-size="55" font-weight="800" letter-spacing="1">TECSYSTEM</text>
+  <path d="M220 102h402" stroke="#18c4ef" stroke-width="2"/>
+  <text x="221" y="133" fill="#9feaff" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="600" letter-spacing="6">ASSISTÊNCIA TÉCNICA</text>
+</svg>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# Acrescentar a linha Sitemap quando o domínio definitivo for confirmado.
