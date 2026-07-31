@@ -14,6 +14,7 @@ if (requestedDevice && [...deviceSelect.options].some((option) => option.value =
   deviceSelect.value = requestedDevice;
 }
 
+//Menu Sanduiche
 menuButton.addEventListener("click", () => {
   const open = menuButton.getAttribute("aria-expanded") === "true";
   menuButton.setAttribute("aria-expanded", String(!open));
